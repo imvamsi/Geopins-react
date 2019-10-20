@@ -1,0 +1,22 @@
+{
+  "name": "mapapp",
+  "version": "1.0.0",
+  "description": "map application based in react",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --ignore client/ server.js"
+  },
+  "author": "Vamsikrishna tamil selvan",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.9.6",
+    "dotenv": "^8.2.0",
+    "google-auth-library": "^5.5.0",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
