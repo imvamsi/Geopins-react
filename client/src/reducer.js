@@ -3,12 +3,19 @@ export default function reducer(state, action) {
     case "LOGIN_USER":
       return {
         ...state,
-        currentuser: action.payload
+        currentUser: action.payload
       };
     case "IS_LOGGED_IN":
       return {
         ...state,
         isAuth: action.payload
+      };
+
+    case "SIGNOUT_USER":
+      return {
+        ...state,
+        currentUser: null,
+        isAuth: false
       };
 
     default:
