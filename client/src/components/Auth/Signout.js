@@ -18,7 +18,7 @@ const Signout = ({ classes }) => {
       render={({ onClick }) => (
         <span className={classes.root} onClick={onClick}>
           <Typography variant="body1" className={classes.buttonText}>
-            Signout
+            <span style={{ color: "#fff" }}>Signout</span>
           </Typography>
           <ExitToAppIcon className={classes.buttonIcon} />
         </span>
