@@ -11,7 +11,7 @@ import Signout from "../components/Auth/Signout";
 const Header = ({ classes }) => {
   const { state } = useContext(Context);
   const { currentUser } = state;
-  console.log(currentUser);
+  //console.log(currentUser);
   return (
     <div className={classes.root}>
       <AppBar position="static">
